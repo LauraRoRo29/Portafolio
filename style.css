@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0b0710;
+    color: #e2e8f0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(11, 7, 16, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #c084fc !important;
+}
+
+/* Colores personalizados */
+.text-purple {
+    color: #c084fc !important;
+}
+
+.text-muted-custom {
+    color: #94a3b8;
+}
+
+.bg-darker {
+    background-color: #120d1c;
+}
+
+/* Secciones y Botones */
+.hero-section {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.subtitle-hero {
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+    color: #a855f7;
+    font-weight: 600;
+}
+
+.btn-primary-custom {
+    background-color: #7c3aed;
+    color: #fff;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.btn-primary-custom:hover {
+    background-color: #6d28d9;
+    color: #fff;
+}
+
+.btn-outline-custom {
+    border: 1px solid #7c3aed;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-outline-custom:hover {
+    background-color: #7c3aed;
+    color: #fff;
+}
+
+.btn-contacto {
+    border: 1px solid #7c3aed !important;
+    border-radius: 4px;
+}
+
+/* Tarjetas y habilidades */
+.hero-card {
+    background: #1a102f;
+    border: 1px solid #4c1d95;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: left;
+}
+
+.skill-box {
+    background-color: #1a102f;
+    border: 1px solid #2e1065;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.skill-box:hover {
+    transform: translateY(-5px);
+    border-color: #7c3aed;
+}
+
+.project-card {
+    background-color: #1a102f !important;
+    border: 1px solid #2e1065 !important;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: #7c3aed !important;
+}
+
+.section-title {
+    color: #fff;
+    font-weight: 700;
+    position: relative;
+}
+
+
+
